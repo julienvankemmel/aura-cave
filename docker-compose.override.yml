@@ -1,0 +1,9 @@
+# Chargé automatiquement en dev (docker compose up) ; ignorer en prod : docker compose -f docker-compose.yml up
+# Expose PostgreSQL sur 127.0.0.1 pour PHPUnit / migrations lancés depuis l'hôte.
+services:
+  postgres:
+    ports: ["127.0.0.1:${POSTGRES_PORT:-5433}:5432"]
+    networks: [backend-net, dev-net]
+
+networks:
+  dev-net: {}

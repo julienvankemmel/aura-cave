@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+/* Direction artistique « cave haut de gamme » : blancs cassés, accents bordeaux, verre dépoli. */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --radius-lg: 1rem;
+  --radius-md: 0.75rem;
+  --radius-sm: 0.5rem;
+  --font-sans: "SF Pro Text", "Helvetica Neue", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "SF Pro Display", "Helvetica Neue", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: "New York", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, ui-serif, serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+:root {
+  --background: oklch(0.968 0.008 60);
+  --foreground: oklch(0.22 0.006 255);
+  --card: oklch(1 0 0 / 0.62);
+  --popover: oklch(0.99 0.002 85 / 0.82);
+  --primary: oklch(0.32 0.1 15);
+  --primary-foreground: oklch(0.985 0.004 60);
+  --secondary: oklch(0.94 0.012 20 / 0.7);
+  --muted: oklch(0.95 0.004 255);
+  --muted-foreground: oklch(0.5 0.012 255);
+  --accent: oklch(0.93 0.015 20 / 0.8);
+  --destructive: oklch(0.52 0.15 25);
+  --border: oklch(0.22 0.006 255 / 0.09);
+  --input: oklch(0.22 0.006 255 / 0.12);
+  --ring: oklch(0.45 0.08 15 / 0.45);
+  --ok: oklch(0.5 0.09 160);
+  --warn: oklch(0.55 0.1 70);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100dvh;
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "kern";
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--background);
+  background-image:
+    radial-gradient(60rem 40rem at 15% -10%, oklch(0.93 0.012 250 / 0.7), transparent 60%),
+    radial-gradient(50rem 36rem at 95% 0%, oklch(0.95 0.01 80 / 0.9), transparent 60%),
+    radial-gradient(40rem 30rem at 50% 110%, oklch(0.92 0.01 255 / 0.6), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Verre dépoli */
+.glass {
+  background: oklch(1 0 0 / 0.58);
+  -webkit-backdrop-filter: blur(24px) saturate(1.5);
+  backdrop-filter: blur(24px) saturate(1.5);
+  border: 1px solid oklch(1 0 0 / 0.7);
+  box-shadow:
+    0 1px 0 oklch(1 0 0 / 0.8) inset,
+    0 10px 40px -16px oklch(0.25 0.02 255 / 0.22);
+}
+
+.glass-strong {
+  background: oklch(0.99 0.003 85 / 0.8);
+  -webkit-backdrop-filter: blur(36px) saturate(1.6);
+  backdrop-filter: blur(36px) saturate(1.6);
+  border: 1px solid oklch(1 0 0 / 0.8);
+  box-shadow:
+    0 1px 0 oklch(1 0 0 / 0.9) inset,
+    0 30px 80px -24px oklch(0.25 0.02 255 / 0.35);
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass,
+  .glass-strong {
+    background: oklch(0.99 0.003 85 / 0.96);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

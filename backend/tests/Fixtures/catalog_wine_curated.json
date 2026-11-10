@@ -1,0 +1,1639 @@
+{
+  "_note": "Catalogue vin (schéma v3) : colonnes communes + bloc attributes propre au vin. Régions : Bordeaux, Bourgogne, Rhône.",
+  "schema_version": 3,
+  "products": [
+    {
+      "sku": "LATOUR-2010",
+      "name": "Château Latour 2010",
+      "brand": "Château Latour",
+      "category": "wine",
+      "price_cents": 119000,
+      "stock": 3,
+      "description": "Château Latour 2010, rouge de Bordeaux en appellation Pauillac (Cabernet Sauvignon, Merlot, Cabernet Franc, Petit Verdot). Cassis, graphite et cèdre ; tanins puissants et d'une grande longueur. À boire entre 2025 et 2065.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "pauillac",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Pauillac",
+        "cepages": [
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Cabernet Franc",
+          "Petit Verdot"
+        ],
+        "vintage": 2010,
+        "classification": "Premier Grand Cru Classé 1855",
+        "food_pairing": [
+          "agneau",
+          "boeuf",
+          "côte de boeuf",
+          "gibier",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Cassis, graphite et cèdre ; tanins puissants et d'une grande longueur.",
+        "alcohol_degree": 13.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2065
+        }
+      }
+    },
+    {
+      "sku": "LAFITE-2009",
+      "name": "Château Lafite Rothschild 2009",
+      "brand": "Château Lafite Rothschild",
+      "category": "wine",
+      "price_cents": 129000,
+      "stock": 2,
+      "description": "Château Lafite Rothschild 2009, rouge de Bordeaux en appellation Pauillac (Cabernet Sauvignon, Merlot, Cabernet Franc, Petit Verdot). Fruit noir mûr, violette, crayon ; texture soyeuse et élégance aristocratique. À boire entre 2024 et 2060.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "pauillac",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Pauillac",
+        "cepages": [
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Cabernet Franc",
+          "Petit Verdot"
+        ],
+        "vintage": 2009,
+        "classification": "Premier Grand Cru Classé 1855",
+        "food_pairing": [
+          "agneau",
+          "volaille",
+          "gibier",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Fruit noir mûr, violette, crayon ; texture soyeuse et élégance aristocratique.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2024,
+          "until": 2060
+        }
+      }
+    },
+    {
+      "sku": "MARGAUX-2015",
+      "name": "Château Margaux 2015",
+      "brand": "Château Margaux",
+      "category": "wine",
+      "price_cents": 89000,
+      "stock": 4,
+      "description": "Château Margaux 2015, rouge de Bordeaux en appellation Margaux (Cabernet Sauvignon, Merlot, Cabernet Franc, Petit Verdot). Floral, fruits rouges et épices douces ; le plus délicat des premiers crus. À boire entre 2025 et 2060.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "margaux",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Margaux",
+        "cepages": [
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Cabernet Franc",
+          "Petit Verdot"
+        ],
+        "vintage": 2015,
+        "classification": "Premier Grand Cru Classé 1855",
+        "food_pairing": [
+          "agneau",
+          "canard",
+          "volaille",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Floral, fruits rouges et épices douces ; le plus délicat des premiers crus.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2060
+        }
+      }
+    },
+    {
+      "sku": "MOUTON-2016",
+      "name": "Château Mouton Rothschild 2016",
+      "brand": "Château Mouton Rothschild",
+      "category": "wine",
+      "price_cents": 76000,
+      "stock": 4,
+      "description": "Château Mouton Rothschild 2016, rouge de Bordeaux en appellation Pauillac (Cabernet Sauvignon, Merlot, Cabernet Franc, Petit Verdot). Cassis, havane et chocolat noir ; opulent, structuré, très long. À boire entre 2026 et 2065.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "pauillac",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Pauillac",
+        "cepages": [
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Cabernet Franc",
+          "Petit Verdot"
+        ],
+        "vintage": 2016,
+        "classification": "Premier Grand Cru Classé 1855",
+        "food_pairing": [
+          "agneau",
+          "boeuf",
+          "côte de boeuf",
+          "gibier",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Cassis, havane et chocolat noir ; opulent, structuré, très long.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2026,
+          "until": 2065
+        }
+      }
+    },
+    {
+      "sku": "PICHON-BARON-2016",
+      "name": "Château Pichon Baron 2016",
+      "brand": "Château Pichon Longueville Baron",
+      "category": "wine",
+      "price_cents": 13500,
+      "stock": 12,
+      "description": "Château Pichon Baron 2016, rouge de Bordeaux en appellation Pauillac (Cabernet Sauvignon, Merlot). Fruits noirs, tabac et réglisse ; chair dense et finale veloutée. À boire entre 2026 et 2050.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "pauillac",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Pauillac",
+        "cepages": [
+          "Cabernet Sauvignon",
+          "Merlot"
+        ],
+        "vintage": 2016,
+        "classification": "Deuxième Grand Cru Classé 1855",
+        "food_pairing": [
+          "agneau",
+          "boeuf",
+          "canard",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Fruits noirs, tabac et réglisse ; chair dense et finale veloutée.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2026,
+          "until": 2050
+        }
+      }
+    },
+    {
+      "sku": "LEOVILLE-LAS-CASES-2016",
+      "name": "Château Léoville-Las Cases 2016",
+      "brand": "Château Léoville-Las Cases",
+      "category": "wine",
+      "price_cents": 18500,
+      "stock": 8,
+      "description": "Château Léoville-Las Cases 2016, rouge de Bordeaux en appellation Saint-Julien (Cabernet Sauvignon, Merlot, Cabernet Franc). Cassis, mine de crayon et cèdre ; austère jeune, immense à maturité. À boire entre 2028 et 2060.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "saint-julien",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Saint-Julien",
+        "cepages": [
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Cabernet Franc"
+        ],
+        "vintage": 2016,
+        "classification": "Deuxième Grand Cru Classé 1855",
+        "food_pairing": [
+          "agneau",
+          "boeuf",
+          "gibier"
+        ],
+        "tasting_notes": "Cassis, mine de crayon et cèdre ; austère jeune, immense à maturité.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2028,
+          "until": 2060
+        }
+      }
+    },
+    {
+      "sku": "DUCRU-BEAUCAILLOU-2014",
+      "name": "Château Ducru-Beaucaillou 2014",
+      "brand": "Château Ducru-Beaucaillou",
+      "category": "wine",
+      "price_cents": 12000,
+      "stock": 10,
+      "description": "Château Ducru-Beaucaillou 2014, rouge de Bordeaux en appellation Saint-Julien (Cabernet Sauvignon, Merlot). Fruits noirs frais, graphite et fines notes boisées ; équilibre remarquable. À boire entre 2024 et 2050.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "saint-julien",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Saint-Julien",
+        "cepages": [
+          "Cabernet Sauvignon",
+          "Merlot"
+        ],
+        "vintage": 2014,
+        "classification": "Deuxième Grand Cru Classé 1855",
+        "food_pairing": [
+          "agneau",
+          "boeuf",
+          "volaille rôtie"
+        ],
+        "tasting_notes": "Fruits noirs frais, graphite et fines notes boisées ; équilibre remarquable.",
+        "alcohol_degree": 13.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2024,
+          "until": 2050
+        }
+      }
+    },
+    {
+      "sku": "COS-ESTOURNEL-2015",
+      "name": "Château Cos d'Estournel 2015",
+      "brand": "Château Cos d'Estournel",
+      "category": "wine",
+      "price_cents": 14000,
+      "stock": 10,
+      "description": "Château Cos d'Estournel 2015, rouge de Bordeaux en appellation Saint-Estèphe (Cabernet Sauvignon, Merlot, Cabernet Franc). Fruit noir éclatant, épices et mocha ; tanins fondus et grande fraîcheur. À boire entre 2025 et 2055.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "saint-estephe",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Saint-Estèphe",
+        "cepages": [
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Cabernet Franc"
+        ],
+        "vintage": 2015,
+        "classification": "Deuxième Grand Cru Classé 1855",
+        "food_pairing": [
+          "agneau",
+          "canard",
+          "boeuf",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Fruit noir éclatant, épices et mocha ; tanins fondus et grande fraîcheur.",
+        "alcohol_degree": 14.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2055
+        }
+      }
+    },
+    {
+      "sku": "MONTROSE-2016",
+      "name": "Château Montrose 2016",
+      "brand": "Château Montrose",
+      "category": "wine",
+      "price_cents": 11000,
+      "stock": 12,
+      "description": "Château Montrose 2016, rouge de Bordeaux en appellation Saint-Estèphe (Cabernet Sauvignon, Merlot, Cabernet Franc, Petit Verdot). Cassis, terre humide et poivre ; charpente solide pour la garde. À boire entre 2028 et 2060.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "saint-estephe",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Saint-Estèphe",
+        "cepages": [
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Cabernet Franc",
+          "Petit Verdot"
+        ],
+        "vintage": 2016,
+        "classification": "Deuxième Grand Cru Classé 1855",
+        "food_pairing": [
+          "boeuf",
+          "agneau",
+          "gibier"
+        ],
+        "tasting_notes": "Cassis, terre humide et poivre ; charpente solide pour la garde.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2028,
+          "until": 2060
+        }
+      }
+    },
+    {
+      "sku": "CHEVAL-BLANC-2012",
+      "name": "Château Cheval Blanc 2012",
+      "brand": "Château Cheval Blanc",
+      "category": "wine",
+      "price_cents": 78000,
+      "stock": 3,
+      "description": "Château Cheval Blanc 2012, rouge de Bordeaux en appellation Saint-Émilion Grand Cru (Cabernet Franc, Merlot). Fruits rouges confits, truffe et épices ; moelleux et velouté. À boire entre 2022 et 2050.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "saint-emilion-grand-cru",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Saint-Émilion Grand Cru",
+        "cepages": [
+          "Cabernet Franc",
+          "Merlot"
+        ],
+        "vintage": 2012,
+        "classification": "Premier Grand Cru Classé A",
+        "food_pairing": [
+          "canard",
+          "volaille",
+          "agneau",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Fruits rouges confits, truffe et épices ; moelleux et velouté.",
+        "alcohol_degree": 14.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2022,
+          "until": 2050
+        }
+      }
+    },
+    {
+      "sku": "AUSONE-2010",
+      "name": "Château Ausone 2010",
+      "brand": "Château Ausone",
+      "category": "wine",
+      "price_cents": 98000,
+      "stock": 2,
+      "description": "Château Ausone 2010, rouge de Bordeaux en appellation Saint-Émilion (Cabernet Franc, Merlot). Minéral, fruits noirs et tabac blond ; énergie et tension rares. À boire entre 2025 et 2060.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "saint-emilion",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Saint-Émilion",
+        "cepages": [
+          "Cabernet Franc",
+          "Merlot"
+        ],
+        "vintage": 2010,
+        "classification": "Premier Grand Cru Classé A",
+        "food_pairing": [
+          "gibier",
+          "agneau",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Minéral, fruits noirs et tabac blond ; énergie et tension rares.",
+        "alcohol_degree": 14.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2060
+        }
+      }
+    },
+    {
+      "sku": "ANGELUS-2016",
+      "name": "Château Angélus 2016",
+      "brand": "Château Angélus",
+      "category": "wine",
+      "price_cents": 32000,
+      "stock": 8,
+      "description": "Château Angélus 2016, rouge de Bordeaux en appellation Saint-Émilion Grand Cru (Merlot, Cabernet Franc). Prune, chocolat, café ; généreux et enveloppant. À boire entre 2026 et 2050.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "saint-emilion-grand-cru",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Saint-Émilion Grand Cru",
+        "cepages": [
+          "Merlot",
+          "Cabernet Franc"
+        ],
+        "vintage": 2016,
+        "classification": "Premier Grand Cru Classé B",
+        "food_pairing": [
+          "agneau",
+          "canard",
+          "boeuf"
+        ],
+        "tasting_notes": "Prune, chocolat, café ; généreux et enveloppant.",
+        "alcohol_degree": 14.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2026,
+          "until": 2050
+        }
+      }
+    },
+    {
+      "sku": "PETRUS-2014",
+      "name": "Pétrus 2014",
+      "brand": "Pétrus",
+      "category": "wine",
+      "price_cents": 320000,
+      "stock": 2,
+      "description": "Pétrus 2014, rouge de Bordeaux en appellation Pomerol (Merlot). Truffe noire, prune et épices ; texture de velours, légende de Pomerol. À boire entre 2026 et 2070.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "pomerol",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Pomerol",
+        "cepages": [
+          "Merlot"
+        ],
+        "vintage": 2014,
+        "classification": "Pomerol",
+        "food_pairing": [
+          "gibier",
+          "canard",
+          "boeuf",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Truffe noire, prune et épices ; texture de velours, légende de Pomerol.",
+        "alcohol_degree": 14.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2026,
+          "until": 2070
+        }
+      }
+    },
+    {
+      "sku": "VIEUX-CHATEAU-CERTAN-2015",
+      "name": "Vieux Château Certan 2015",
+      "brand": "Vieux Château Certan",
+      "category": "wine",
+      "price_cents": 16500,
+      "stock": 6,
+      "description": "Vieux Château Certan 2015, rouge de Bordeaux en appellation Pomerol (Merlot, Cabernet Franc, Cabernet Sauvignon). Fruits noirs, violette et sous-bois ; raffinement et élégance. À boire entre 2025 et 2050.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "pomerol",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Pomerol",
+        "cepages": [
+          "Merlot",
+          "Cabernet Franc",
+          "Cabernet Sauvignon"
+        ],
+        "vintage": 2015,
+        "classification": "Pomerol",
+        "food_pairing": [
+          "canard",
+          "agneau",
+          "volaille"
+        ],
+        "tasting_notes": "Fruits noirs, violette et sous-bois ; raffinement et élégance.",
+        "alcohol_degree": 14.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2050
+        }
+      }
+    },
+    {
+      "sku": "HAUT-BRION-2012",
+      "name": "Château Haut-Brion 2012",
+      "brand": "Château Haut-Brion",
+      "category": "wine",
+      "price_cents": 52000,
+      "stock": 4,
+      "description": "Château Haut-Brion 2012, rouge de Bordeaux en appellation Pessac-Léognan (Merlot, Cabernet Sauvignon, Cabernet Franc). Fumé, tabac, fruits noirs et terre chaude ; signature unique des Graves. À boire entre 2024 et 2055.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "pessac-leognan",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Pessac-Léognan",
+        "cepages": [
+          "Merlot",
+          "Cabernet Sauvignon",
+          "Cabernet Franc"
+        ],
+        "vintage": 2012,
+        "classification": "Premier Grand Cru Classé 1855",
+        "food_pairing": [
+          "agneau",
+          "boeuf",
+          "gibier",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Fumé, tabac, fruits noirs et terre chaude ; signature unique des Graves.",
+        "alcohol_degree": 14.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2024,
+          "until": 2055
+        }
+      }
+    },
+    {
+      "sku": "SMITH-HAUT-LAFITTE-2018",
+      "name": "Château Smith Haut Lafitte 2018",
+      "brand": "Château Smith Haut Lafitte",
+      "category": "wine",
+      "price_cents": 9500,
+      "stock": 14,
+      "description": "Château Smith Haut Lafitte 2018, rouge de Bordeaux en appellation Pessac-Léognan (Cabernet Sauvignon, Merlot, Cabernet Franc, Petit Verdot). Fruits noirs, épices douces et notes grillées ; charme immédiat et longueur. À boire entre 2026 et 2048.",
+      "tags": [
+        "bordeaux",
+        "rouge",
+        "pessac-leognan",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bordeaux",
+        "appellation": "Pessac-Léognan",
+        "cepages": [
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Cabernet Franc",
+          "Petit Verdot"
+        ],
+        "vintage": 2018,
+        "classification": "Grand Cru Classé de Graves",
+        "food_pairing": [
+          "canard",
+          "agneau",
+          "boeuf"
+        ],
+        "tasting_notes": "Fruits noirs, épices douces et notes grillées ; charme immédiat et longueur.",
+        "alcohol_degree": 14.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2026,
+          "until": 2048
+        }
+      }
+    },
+    {
+      "sku": "YQUEM-2011",
+      "name": "Château d'Yquem 2011",
+      "brand": "Château d'Yquem",
+      "category": "wine",
+      "price_cents": 42000,
+      "stock": 5,
+      "description": "Château d'Yquem 2011, liquoreux de Bordeaux en appellation Sauternes (Sémillon, Sauvignon Blanc). Abricot confit, miel, safran ; onctueux et d'une fraîcheur infinie. À boire entre 2020 et 2080.",
+      "tags": [
+        "bordeaux",
+        "liquoreux",
+        "sauternes",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "liquoreux",
+        "region": "Bordeaux",
+        "appellation": "Sauternes",
+        "cepages": [
+          "Sémillon",
+          "Sauvignon Blanc"
+        ],
+        "vintage": 2011,
+        "classification": "Premier Cru Supérieur 1855",
+        "food_pairing": [
+          "foie gras",
+          "roquefort",
+          "tarte aux fruits",
+          "dessert",
+          "fromages bleus"
+        ],
+        "tasting_notes": "Abricot confit, miel, safran ; onctueux et d'une fraîcheur infinie.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2020,
+          "until": 2080
+        }
+      }
+    },
+    {
+      "sku": "RIEUSSEC-2015",
+      "name": "Château Rieussec 2015",
+      "brand": "Château Rieussec",
+      "category": "wine",
+      "price_cents": 7500,
+      "stock": 12,
+      "description": "Château Rieussec 2015, liquoreux de Bordeaux en appellation Sauternes (Sémillon, Sauvignon Blanc). Orange confite, fleurs blanches et miel d'acacia. À boire entre 2022 et 2060.",
+      "tags": [
+        "bordeaux",
+        "liquoreux",
+        "sauternes",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "liquoreux",
+        "region": "Bordeaux",
+        "appellation": "Sauternes",
+        "cepages": [
+          "Sémillon",
+          "Sauvignon Blanc"
+        ],
+        "vintage": 2015,
+        "classification": "Premier Grand Cru Classé 1855",
+        "food_pairing": [
+          "foie gras",
+          "roquefort",
+          "tarte aux fruits",
+          "dessert"
+        ],
+        "tasting_notes": "Orange confite, fleurs blanches et miel d'acacia.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2022,
+          "until": 2060
+        }
+      }
+    },
+    {
+      "sku": "ROMANEE-CONTI-2015",
+      "name": "Romanée-Conti 2015",
+      "brand": "Domaine de la Romanée-Conti",
+      "category": "wine",
+      "price_cents": 1950000,
+      "stock": 1,
+      "description": "Romanée-Conti 2015, rouge de Bourgogne en appellation Romanée-Conti (Pinot Noir). Rose, épices orientales, sous-bois ; la quintessence du Pinot Noir. À boire entre 2030 et 2070.",
+      "tags": [
+        "bourgogne",
+        "rouge",
+        "romanee-conti",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bourgogne",
+        "appellation": "Romanée-Conti",
+        "cepages": [
+          "Pinot Noir"
+        ],
+        "vintage": 2015,
+        "classification": "Grand Cru",
+        "food_pairing": [
+          "gibier",
+          "volaille truffée",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Rose, épices orientales, sous-bois ; la quintessence du Pinot Noir.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2030,
+          "until": 2070
+        }
+      }
+    },
+    {
+      "sku": "ROUSSEAU-CHAMBERTIN-2017",
+      "name": "Domaine Armand Rousseau Chambertin 2017",
+      "brand": "Domaine Armand Rousseau",
+      "category": "wine",
+      "price_cents": 79000,
+      "stock": 3,
+      "description": "Domaine Armand Rousseau Chambertin 2017, rouge de Bourgogne en appellation Chambertin (Pinot Noir). Cerise noire, truffe, épices ; puissance et profondeur. À boire entre 2026 et 2055.",
+      "tags": [
+        "bourgogne",
+        "rouge",
+        "chambertin",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bourgogne",
+        "appellation": "Chambertin",
+        "cepages": [
+          "Pinot Noir"
+        ],
+        "vintage": 2017,
+        "classification": "Grand Cru",
+        "food_pairing": [
+          "gibier",
+          "canard",
+          "volaille",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Cerise noire, truffe, épices ; puissance et profondeur.",
+        "alcohol_degree": 13.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2026,
+          "until": 2055
+        }
+      }
+    },
+    {
+      "sku": "ROUMIER-CHAMBOLLE-2019",
+      "name": "Domaine Georges Roumier Chambolle-Musigny 2019",
+      "brand": "Domaine Georges Roumier",
+      "category": "wine",
+      "price_cents": 21000,
+      "stock": 6,
+      "description": "Domaine Georges Roumier Chambolle-Musigny 2019, rouge de Bourgogne en appellation Chambolle-Musigny (Pinot Noir). Fruits rouges, pétale de rose ; soyeux, minéral et très fin. À boire entre 2025 et 2045.",
+      "tags": [
+        "bourgogne",
+        "rouge",
+        "chambolle-musigny",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bourgogne",
+        "appellation": "Chambolle-Musigny",
+        "cepages": [
+          "Pinot Noir"
+        ],
+        "vintage": 2019,
+        "classification": "Village",
+        "food_pairing": [
+          "volaille",
+          "canard",
+          "veau",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Fruits rouges, pétale de rose ; soyeux, minéral et très fin.",
+        "alcohol_degree": 13.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2045
+        }
+      }
+    },
+    {
+      "sku": "VOGUE-CHAMBOLLE-2017",
+      "name": "Comte Georges de Vogüé Chambolle-Musigny 2017",
+      "brand": "Domaine Comte Georges de Vogüé",
+      "category": "wine",
+      "price_cents": 28000,
+      "stock": 5,
+      "description": "Comte Georges de Vogüé Chambolle-Musigny 2017, rouge de Bourgogne en appellation Chambolle-Musigny (Pinot Noir). Griotte, violette et épices ; élégance et persistance. À boire entre 2024 et 2045.",
+      "tags": [
+        "bourgogne",
+        "rouge",
+        "chambolle-musigny",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bourgogne",
+        "appellation": "Chambolle-Musigny",
+        "cepages": [
+          "Pinot Noir"
+        ],
+        "vintage": 2017,
+        "classification": "Premier Cru",
+        "food_pairing": [
+          "canard",
+          "volaille",
+          "veau"
+        ],
+        "tasting_notes": "Griotte, violette et épices ; élégance et persistance.",
+        "alcohol_degree": 13.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2024,
+          "until": 2045
+        }
+      }
+    },
+    {
+      "sku": "MONTILLE-POMMARD-2018",
+      "name": "Domaine de Montille Pommard 2018",
+      "brand": "Domaine de Montille",
+      "category": "wine",
+      "price_cents": 9500,
+      "stock": 12,
+      "description": "Domaine de Montille Pommard 2018, rouge de Bourgogne en appellation Pommard (Pinot Noir). Fruits noirs, cuir et sous-bois ; structure fidèle à Pommard. À boire entre 2025 et 2042.",
+      "tags": [
+        "bourgogne",
+        "rouge",
+        "pommard",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bourgogne",
+        "appellation": "Pommard",
+        "cepages": [
+          "Pinot Noir"
+        ],
+        "vintage": 2018,
+        "classification": "Village",
+        "food_pairing": [
+          "boeuf",
+          "gibier",
+          "volaille",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Fruits noirs, cuir et sous-bois ; structure fidèle à Pommard.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2042
+        }
+      }
+    },
+    {
+      "sku": "FAIVELEY-NSG-2019",
+      "name": "Domaine Faiveley Nuits-Saint-Georges 2019",
+      "brand": "Domaine Faiveley",
+      "category": "wine",
+      "price_cents": 5500,
+      "stock": 24,
+      "description": "Domaine Faiveley Nuits-Saint-Georges 2019, rouge de Bourgogne en appellation Nuits-Saint-Georges (Pinot Noir). Mûre, épices, notes animales fines ; chair dense et finale droite. À boire entre 2025 et 2040.",
+      "tags": [
+        "bourgogne",
+        "rouge",
+        "nuits-saint-georges",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Bourgogne",
+        "appellation": "Nuits-Saint-Georges",
+        "cepages": [
+          "Pinot Noir"
+        ],
+        "vintage": 2019,
+        "classification": "Village",
+        "food_pairing": [
+          "boeuf",
+          "gibier",
+          "volaille",
+          "fromages"
+        ],
+        "tasting_notes": "Mûre, épices, notes animales fines ; chair dense et finale droite.",
+        "alcohol_degree": 13.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2040
+        }
+      }
+    },
+    {
+      "sku": "LEFLAIVE-PULIGNY-2018",
+      "name": "Domaine Leflaive Puligny-Montrachet 2018",
+      "brand": "Domaine Leflaive",
+      "category": "wine",
+      "price_cents": 15000,
+      "stock": 8,
+      "description": "Domaine Leflaive Puligny-Montrachet 2018, blanc de Bourgogne en appellation Puligny-Montrachet (Chardonnay). Fleurs blanches, noisette fraîche et pierre à fusil ; tension et ampleur. À boire entre 2022 et 2040.",
+      "tags": [
+        "bourgogne",
+        "blanc",
+        "puligny-montrachet",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "blanc",
+        "region": "Bourgogne",
+        "appellation": "Puligny-Montrachet",
+        "cepages": [
+          "Chardonnay"
+        ],
+        "vintage": 2018,
+        "classification": "Village",
+        "food_pairing": [
+          "poisson",
+          "homard",
+          "saint-jacques",
+          "volaille crème",
+          "fromages"
+        ],
+        "tasting_notes": "Fleurs blanches, noisette fraîche et pierre à fusil ; tension et ampleur.",
+        "alcohol_degree": 13.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2022,
+          "until": 2040
+        }
+      }
+    },
+    {
+      "sku": "ROULOT-MEURSAULT-2017",
+      "name": "Domaine Roulot Meursault 2017",
+      "brand": "Domaine Roulot",
+      "category": "wine",
+      "price_cents": 14000,
+      "stock": 8,
+      "description": "Domaine Roulot Meursault 2017, blanc de Bourgogne en appellation Meursault (Chardonnay). Beurre frais, amande et agrumes ; élégance et pureté. À boire entre 2022 et 2038.",
+      "tags": [
+        "bourgogne",
+        "blanc",
+        "meursault",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "blanc",
+        "region": "Bourgogne",
+        "appellation": "Meursault",
+        "cepages": [
+          "Chardonnay"
+        ],
+        "vintage": 2017,
+        "classification": "Village",
+        "food_pairing": [
+          "poisson",
+          "homard",
+          "saint-jacques",
+          "volaille crème"
+        ],
+        "tasting_notes": "Beurre frais, amande et agrumes ; élégance et pureté.",
+        "alcohol_degree": 13.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2022,
+          "until": 2038
+        }
+      }
+    },
+    {
+      "sku": "JADOT-CORTON-CHARLEMAGNE-2018",
+      "name": "Louis Jadot Corton-Charlemagne 2018",
+      "brand": "Maison Louis Jadot",
+      "category": "wine",
+      "price_cents": 12000,
+      "stock": 10,
+      "description": "Louis Jadot Corton-Charlemagne 2018, blanc de Bourgogne en appellation Corton-Charlemagne (Chardonnay). Silex, citron confit et brioche ; grande minéralité. À boire entre 2024 et 2042.",
+      "tags": [
+        "bourgogne",
+        "blanc",
+        "corton-charlemagne",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "blanc",
+        "region": "Bourgogne",
+        "appellation": "Corton-Charlemagne",
+        "cepages": [
+          "Chardonnay"
+        ],
+        "vintage": 2018,
+        "classification": "Grand Cru",
+        "food_pairing": [
+          "homard",
+          "poisson",
+          "saint-jacques",
+          "volaille crème"
+        ],
+        "tasting_notes": "Silex, citron confit et brioche ; grande minéralité.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2024,
+          "until": 2042
+        }
+      }
+    },
+    {
+      "sku": "FEVRE-CHABLIS-CLOS-2018",
+      "name": "William Fèvre Chablis Grand Cru Les Clos 2018",
+      "brand": "Domaine William Fèvre",
+      "category": "wine",
+      "price_cents": 8500,
+      "stock": 14,
+      "description": "William Fèvre Chablis Grand Cru Les Clos 2018, blanc de Bourgogne en appellation Chablis Grand Cru (Chardonnay). Iode, citron et craie ; vif, salin et profond. À boire entre 2022 et 2038.",
+      "tags": [
+        "bourgogne",
+        "blanc",
+        "chablis-grand-cru",
+        "prestige",
+        "grand-cru"
+      ],
+      "attributes": {
+        "type": "blanc",
+        "region": "Bourgogne",
+        "appellation": "Chablis Grand Cru",
+        "cepages": [
+          "Chardonnay"
+        ],
+        "vintage": 2018,
+        "classification": "Grand Cru",
+        "food_pairing": [
+          "huîtres",
+          "poisson",
+          "crustacés",
+          "saint-jacques"
+        ],
+        "tasting_notes": "Iode, citron et craie ; vif, salin et profond.",
+        "alcohol_degree": 13.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2022,
+          "until": 2038
+        }
+      }
+    },
+    {
+      "sku": "GUIGAL-LA-MOULINE-2015",
+      "name": "E. Guigal Côte-Rôtie La Mouline 2015",
+      "brand": "E. Guigal",
+      "category": "wine",
+      "price_cents": 52000,
+      "stock": 4,
+      "description": "E. Guigal Côte-Rôtie La Mouline 2015, rouge de Rhône en appellation Côte-Rôtie (Syrah, Viognier). Violette, fruits noirs, épices ; soyeux et parfumé grâce au Viognier. À boire entre 2025 et 2050.",
+      "tags": [
+        "rhône",
+        "rouge",
+        "cote-rotie",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Rhône",
+        "appellation": "Côte-Rôtie",
+        "cepages": [
+          "Syrah",
+          "Viognier"
+        ],
+        "vintage": 2015,
+        "classification": "Côte-Rôtie",
+        "food_pairing": [
+          "gibier",
+          "agneau",
+          "canard",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Violette, fruits noirs, épices ; soyeux et parfumé grâce au Viognier.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2050
+        }
+      }
+    },
+    {
+      "sku": "JABOULET-LA-CHAPELLE-2016",
+      "name": "Paul Jaboulet Aîné Hermitage La Chapelle 2016",
+      "brand": "Paul Jaboulet Aîné",
+      "category": "wine",
+      "price_cents": 28500,
+      "stock": 6,
+      "description": "Paul Jaboulet Aîné Hermitage La Chapelle 2016, rouge de Rhône en appellation Hermitage (Syrah). Poivre noir, cassis, viande fumée ; puissance et noblesse de la Syrah. À boire entre 2026 et 2055.",
+      "tags": [
+        "rhône",
+        "rouge",
+        "hermitage",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Rhône",
+        "appellation": "Hermitage",
+        "cepages": [
+          "Syrah"
+        ],
+        "vintage": 2016,
+        "classification": "Hermitage",
+        "food_pairing": [
+          "gibier",
+          "boeuf",
+          "agneau",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Poivre noir, cassis, viande fumée ; puissance et noblesse de la Syrah.",
+        "alcohol_degree": 14.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2026,
+          "until": 2055
+        }
+      }
+    },
+    {
+      "sku": "CHAPOUTIER-HERMITAGE-2015",
+      "name": "M. Chapoutier Hermitage Le Pavillon 2015",
+      "brand": "M. Chapoutier",
+      "category": "wine",
+      "price_cents": 19000,
+      "stock": 6,
+      "description": "M. Chapoutier Hermitage Le Pavillon 2015, rouge de Rhône en appellation Hermitage (Syrah). Mûre, réglisse et épices ; dense et racé. À boire entre 2025 et 2050.",
+      "tags": [
+        "rhône",
+        "rouge",
+        "hermitage",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Rhône",
+        "appellation": "Hermitage",
+        "cepages": [
+          "Syrah"
+        ],
+        "vintage": 2015,
+        "classification": "Hermitage",
+        "food_pairing": [
+          "gibier",
+          "boeuf",
+          "agneau"
+        ],
+        "tasting_notes": "Mûre, réglisse et épices ; dense et racé.",
+        "alcohol_degree": 14.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2050
+        }
+      }
+    },
+    {
+      "sku": "RAYAS-CDP-2012",
+      "name": "Château Rayas Châteauneuf-du-Pape 2012",
+      "brand": "Château Rayas",
+      "category": "wine",
+      "price_cents": 78000,
+      "stock": 2,
+      "description": "Château Rayas Châteauneuf-du-Pape 2012, rouge de Rhône en appellation Châteauneuf-du-Pape (Grenache). Fruits rouges, garrigue et épices ; finesse hors norme pour un Grenache. À boire entre 2022 et 2045.",
+      "tags": [
+        "rhône",
+        "rouge",
+        "chateauneuf-du-pape",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Rhône",
+        "appellation": "Châteauneuf-du-Pape",
+        "cepages": [
+          "Grenache"
+        ],
+        "vintage": 2012,
+        "classification": "Châteauneuf-du-Pape",
+        "food_pairing": [
+          "gibier",
+          "agneau",
+          "volaille",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Fruits rouges, garrigue et épices ; finesse hors norme pour un Grenache.",
+        "alcohol_degree": 14.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2022,
+          "until": 2045
+        }
+      }
+    },
+    {
+      "sku": "PEGAU-CDP-2016",
+      "name": "Domaine du Pégau Châteauneuf-du-Pape Cuvée Réservée 2016",
+      "brand": "Domaine du Pégau",
+      "category": "wine",
+      "price_cents": 6800,
+      "stock": 18,
+      "description": "Domaine du Pégau Châteauneuf-du-Pape Cuvée Réservée 2016, rouge de Rhône en appellation Châteauneuf-du-Pape (Grenache, Syrah, Mourvèdre). Fruits noirs, garrigue, cuir ; chaleureux et profond. À boire entre 2024 et 2042.",
+      "tags": [
+        "rhône",
+        "rouge",
+        "chateauneuf-du-pape",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Rhône",
+        "appellation": "Châteauneuf-du-Pape",
+        "cepages": [
+          "Grenache",
+          "Syrah",
+          "Mourvèdre"
+        ],
+        "vintage": 2016,
+        "classification": "Châteauneuf-du-Pape",
+        "food_pairing": [
+          "agneau",
+          "boeuf",
+          "gibier",
+          "fromages"
+        ],
+        "tasting_notes": "Fruits noirs, garrigue, cuir ; chaleureux et profond.",
+        "alcohol_degree": 15.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2024,
+          "until": 2042
+        }
+      }
+    },
+    {
+      "sku": "BEAUCASTEL-CDP-2016",
+      "name": "Château de Beaucastel Châteauneuf-du-Pape 2016",
+      "brand": "Château de Beaucastel",
+      "category": "wine",
+      "price_cents": 9500,
+      "stock": 16,
+      "description": "Château de Beaucastel Châteauneuf-du-Pape 2016, rouge de Rhône en appellation Châteauneuf-du-Pape (Grenache, Mourvèdre, Syrah). Cerise noire, thym et cuir ; complexe et harmonieux. À boire entre 2025 et 2046.",
+      "tags": [
+        "rhône",
+        "rouge",
+        "chateauneuf-du-pape",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Rhône",
+        "appellation": "Châteauneuf-du-Pape",
+        "cepages": [
+          "Grenache",
+          "Mourvèdre",
+          "Syrah"
+        ],
+        "vintage": 2016,
+        "classification": "Châteauneuf-du-Pape",
+        "food_pairing": [
+          "agneau",
+          "gibier",
+          "boeuf",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Cerise noire, thym et cuir ; complexe et harmonieux.",
+        "alcohol_degree": 14.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2046
+        }
+      }
+    },
+    {
+      "sku": "CLAPE-CORNAS-2017",
+      "name": "Auguste Clape Cornas 2017",
+      "brand": "Domaine Auguste Clape",
+      "category": "wine",
+      "price_cents": 8200,
+      "stock": 8,
+      "description": "Auguste Clape Cornas 2017, rouge de Rhône en appellation Cornas (Syrah). Cassis, poivre et fumée ; tannique, authentique, taillé pour la garde. À boire entre 2025 et 2045.",
+      "tags": [
+        "rhône",
+        "rouge",
+        "cornas",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Rhône",
+        "appellation": "Cornas",
+        "cepages": [
+          "Syrah"
+        ],
+        "vintage": 2017,
+        "classification": "Cornas",
+        "food_pairing": [
+          "gibier",
+          "boeuf",
+          "agneau",
+          "fromages affinés"
+        ],
+        "tasting_notes": "Cassis, poivre et fumée ; tannique, authentique, taillé pour la garde.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2025,
+          "until": 2045
+        }
+      }
+    },
+    {
+      "sku": "GUIGAL-DORIANE-2019",
+      "name": "E. Guigal Condrieu La Doriane 2019",
+      "brand": "E. Guigal",
+      "category": "wine",
+      "price_cents": 9000,
+      "stock": 8,
+      "description": "E. Guigal Condrieu La Doriane 2019, blanc de Rhône en appellation Condrieu (Viognier). Abricot, fleurs blanches et miel ; gras, onctueux et parfumé. À boire entre 2022 et 2032.",
+      "tags": [
+        "rhône",
+        "blanc",
+        "condrieu",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "blanc",
+        "region": "Rhône",
+        "appellation": "Condrieu",
+        "cepages": [
+          "Viognier"
+        ],
+        "vintage": 2019,
+        "classification": "Condrieu",
+        "food_pairing": [
+          "poisson",
+          "saint-jacques",
+          "volaille crème",
+          "fromages de chèvre"
+        ],
+        "tasting_notes": "Abricot, fleurs blanches et miel ; gras, onctueux et parfumé.",
+        "alcohol_degree": 14.0,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2022,
+          "until": 2032
+        }
+      }
+    },
+    {
+      "sku": "CHAVE-ST-JOSEPH-2018",
+      "name": "Jean-Louis Chave Saint-Joseph Offerus 2018",
+      "brand": "Domaine Jean-Louis Chave",
+      "category": "wine",
+      "price_cents": 5800,
+      "stock": 14,
+      "description": "Jean-Louis Chave Saint-Joseph Offerus 2018, rouge de Rhône en appellation Saint-Joseph (Syrah). Cassis, olive noire et poivre ; Syrah élégante et fraîche. À boire entre 2024 et 2040.",
+      "tags": [
+        "rhône",
+        "rouge",
+        "saint-joseph",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Rhône",
+        "appellation": "Saint-Joseph",
+        "cepages": [
+          "Syrah"
+        ],
+        "vintage": 2018,
+        "classification": "Saint-Joseph",
+        "food_pairing": [
+          "agneau",
+          "boeuf",
+          "gibier",
+          "charcuterie"
+        ],
+        "tasting_notes": "Cassis, olive noire et poivre ; Syrah élégante et fraîche.",
+        "alcohol_degree": 13.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2024,
+          "until": 2040
+        }
+      }
+    },
+    {
+      "sku": "SANTA-DUC-GIGONDAS-2017",
+      "name": "Domaine Santa Duc Gigondas 2017",
+      "brand": "Domaine Santa Duc",
+      "category": "wine",
+      "price_cents": 3800,
+      "stock": 24,
+      "description": "Domaine Santa Duc Gigondas 2017, rouge de Rhône en appellation Gigondas (Grenache, Syrah, Mourvèdre). Fruits noirs, garrigue, réglisse ; rustique et généreux. À boire entre 2023 et 2038.",
+      "tags": [
+        "rhône",
+        "rouge",
+        "gigondas",
+        "prestige"
+      ],
+      "attributes": {
+        "type": "rouge",
+        "region": "Rhône",
+        "appellation": "Gigondas",
+        "cepages": [
+          "Grenache",
+          "Syrah",
+          "Mourvèdre"
+        ],
+        "vintage": 2017,
+        "classification": "Gigondas",
+        "food_pairing": [
+          "agneau",
+          "boeuf",
+          "daube",
+          "fromages"
+        ],
+        "tasting_notes": "Fruits noirs, garrigue, réglisse ; rustique et généreux.",
+        "alcohol_degree": 14.5,
+        "volume_cl": 75,
+        "drinking_window": {
+          "from": 2023,
+          "until": 2038
+        }
+      }
+    },
+    {
+      "sku": "RIEDEL-CARAFE-ULTRA",
+      "name": "Carafe à décanter Riedel Ultra",
+      "brand": "Riedel",
+      "category": "accessory",
+      "price_cents": 14900,
+      "stock": 30,
+      "description": "Carafe cristal soufflé 1,25 L : décantation et aération des grands rouges.",
+      "tags": [
+        "carafe",
+        "aération",
+        "cristal"
+      ],
+      "attributes": {
+        "kind": "Carafe",
+        "capacity_cl": 125,
+        "material": "Cristal",
+        "suited_for": [
+          "rouge"
+        ]
+      }
+    },
+    {
+      "sku": "ZALTO-BORDEAUX-6",
+      "name": "Verres Zalto Denk'Art Bordeaux (6)",
+      "brand": "Zalto",
+      "category": "accessory",
+      "price_cents": 39000,
+      "stock": 12,
+      "description": "Six verres soufflés bouche, ultra fins, pensés pour les rouges de structure.",
+      "tags": [
+        "verres",
+        "bordeaux",
+        "dégustation"
+      ],
+      "attributes": {
+        "kind": "Verres",
+        "pieces": 6,
+        "material": "Cristal soufflé",
+        "suited_for": [
+          "rouge"
+        ]
+      }
+    },
+    {
+      "sku": "ZALTO-BOURGOGNE-6",
+      "name": "Verres Zalto Denk'Art Bourgogne (6)",
+      "brand": "Zalto",
+      "category": "accessory",
+      "price_cents": 39000,
+      "stock": 12,
+      "description": "Six verres à large bulbe pour exalter le Pinot Noir et les grands Chardonnay.",
+      "tags": [
+        "verres",
+        "bourgogne",
+        "dégustation"
+      ],
+      "attributes": {
+        "kind": "Verres",
+        "pieces": 6,
+        "material": "Cristal soufflé",
+        "suited_for": [
+          "rouge",
+          "blanc"
+        ]
+      }
+    },
+    {
+      "sku": "LAGUIOLE-SOMMELIER",
+      "name": "Tire-bouchon sommelier Laguiole en Aubrac",
+      "brand": "Laguiole en Aubrac",
+      "category": "accessory",
+      "price_cents": 8900,
+      "stock": 40,
+      "description": "Tire-bouchon double levier, manche en bois d'olivier, coupe-capsule.",
+      "tags": [
+        "tire-bouchon",
+        "sommelier"
+      ],
+      "attributes": {
+        "kind": "Tire-bouchon",
+        "material": "Acier inoxydable et olivier",
+        "suited_for": [
+          "rouge",
+          "blanc",
+          "liquoreux"
+        ]
+      }
+    },
+    {
+      "sku": "CORAVIN-PIVOT",
+      "name": "Système de conservation Coravin Pivot",
+      "brand": "Coravin",
+      "category": "accessory",
+      "price_cents": 17900,
+      "stock": 20,
+      "description": "Servez un verre sans déboucher et conservez vos grandes bouteilles des semaines.",
+      "tags": [
+        "conservation",
+        "service au verre"
+      ],
+      "attributes": {
+        "kind": "Conservation",
+        "material": "Aluminium",
+        "suited_for": [
+          "rouge",
+          "blanc",
+          "liquoreux"
+        ]
+      }
+    },
+    {
+      "sku": "COFFRET-BOIS-3",
+      "name": "Coffret bois 3 bouteilles",
+      "brand": "Maison Cavé",
+      "category": "accessory",
+      "price_cents": 6900,
+      "stock": 25,
+      "description": "Coffret cadeau en bois massif pour trois bouteilles, intérieur capitonné.",
+      "tags": [
+        "coffret",
+        "cadeau"
+      ],
+      "attributes": {
+        "kind": "Coffret",
+        "capacity_bottles": 3,
+        "material": "Bois massif",
+        "suited_for": [
+          "rouge",
+          "blanc",
+          "liquoreux"
+        ]
+      }
+    }
+  ]
+}

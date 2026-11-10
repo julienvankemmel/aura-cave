@@ -1,0 +1,114 @@
+name: aura-cave
+
+x-hardening: &hardening
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: ["no-new-privileges:true"]
+  restart: unless-stopped
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:?}
+      POSTGRES_USER: ${POSTGRES_USER:?}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./infra/postgres/init.sql:/docker-entrypoint-initdb.d/00-init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    security_opt: ["no-new-privileges:true"]
+    restart: unless-stopped
+    networks: [backend-net]
+
+  backend:
+    <<: *hardening
+    build:
+      context: ./backend
+      dockerfile: ../infra/docker/backend.Dockerfile
+    environment:
+      APP_ENV: prod
+      APP_SECRET: ${APP_SECRET:?}
+      DATABASE_URL: ${DATABASE_URL:?}
+      SODIUM_PRIVATE_KEY: ${SODIUM_PRIVATE_KEY:-}
+      INTERNAL_API_KEY: ${INTERNAL_API_KEY:?}
+      AGENT_URL: ${AGENT_URL:-http://agent:8001}
+      # Reranking gustatif (Google AI Studio) : sans clé, tri local ; modèles essayés dans l'ordre (cascade de secours)
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      GEMINI_MODELS: ${GEMINI_MODELS:-gemini-3.8-flash,gemini-3.6-flash,gemini-3.5-flash-lite,gemini-3.1-flash-lite}
+      GEMINI_TIMEOUT_SECONDS: ${GEMINI_TIMEOUT_SECONDS:-4.5}
+    tmpfs:
+      - /app/var:uid=10001,gid=10001,mode=0750
+      - /tmp
+    depends_on:
+      postgres: { condition: service_healthy }
+    # egress-net : sortie Internet réservée à l'appel Google AI Studio (reranking) ; la base reste sur le réseau interne.
+    networks: [backend-net, egress-net]
+
+  nginx:
+    <<: *hardening
+    image: nginxinc/nginx-unprivileged:1.27-alpine
+    ports: ["127.0.0.1:${BACKEND_PORT:-8088}:8080"]
+    volumes:
+      - ./infra/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./backend/public:/app/public:ro
+    tmpfs: [/tmp]
+    depends_on: [backend]
+    networks: [backend-net, edge-net]
+
+  agent:
+    <<: *hardening
+    build:
+      context: ./agent
+      dockerfile: ../infra/docker/agent.Dockerfile
+    environment:
+      BACKEND_URL: ${BACKEND_URL:?}
+      INTERNAL_API_KEY: ${INTERNAL_API_KEY:?}
+      LLM_PROVIDER: ${LLM_PROVIDER:-groq}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      ANTHROPIC_MODEL: ${ANTHROPIC_MODEL:-claude-sonnet-5-5}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      GROQ_MODEL: ${GROQ_MODEL:-openai/gpt-oss-120b}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      OPENROUTER_MODEL: ${OPENROUTER_MODEL:-nvidia/nemotron-3-ultra-550b-a55b:free}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434/v1}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-llama3.1}
+      FASTEMBED_MOCK: ${FASTEMBED_MOCK:-false}
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    tmpfs: [/tmp]
+    ports: ["127.0.0.1:${AGENT_PORT:-8001}:8001"]
+    depends_on: [nginx]
+    networks: [backend-net, edge-net]
+
+  frontend:
+    <<: *hardening
+    build:
+      context: ./frontend
+      dockerfile: ../infra/docker/frontend.Dockerfile
+    environment:
+      AGENT_URL: ${AGENT_URL:-http://agent:8001}
+      BACKEND_URL: ${BACKEND_URL:?}
+      # Variable serveur uniquement (jamais NEXT_PUBLIC_) : lue par le proxy /api/chat.
+      INTERNAL_API_KEY: ${INTERNAL_API_KEY:?}
+    tmpfs:
+      - /tmp
+      - /app/.next/cache:uid=10001,gid=10001
+    ports: ["127.0.0.1:${FRONTEND_PORT:-3100}:3000"]
+    depends_on: [agent]
+    networks: [edge-net]
+
+networks:
+  backend-net:
+    internal: true
+  edge-net:
+  egress-net:
+
+volumes:
+  pgdata:
+    name: aura-cave_pgdata

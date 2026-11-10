@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" role="img" aria-label="Bouteille de vin (visuel par défaut)">
+  <rect width="300" height="400" fill="#ece8e3"/>
+  <g transform="translate(95 40) scale(2.5)">
+    <path d="M16 2h8v8c0 3 1 5 3 9 2 5 3 9 3 14v79a5 5 0 0 1-5 5H15a5 5 0 0 1-5-5V33c0-5 1-9 3-14 2-4 3-6 3-9z" fill="#8a8480"/>
+    <rect x="10" y="62" width="20" height="32" rx="2" fill="#f6f3ee"/>
+    <rect x="13" y="70" width="14" height="2" rx="1" fill="#8a8480" opacity="0.55"/>
+    <rect x="13" y="76" width="10" height="2" rx="1" fill="#8a8480" opacity="0.35"/>
+    <path d="M13 30v78" stroke="#fff" stroke-opacity="0.25" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

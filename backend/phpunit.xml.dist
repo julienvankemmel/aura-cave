@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="tests/bootstrap.php"
+         colors="true"
+         failOnWarning="true"
+         failOnRisky="true">
+    <php>
+        <ini name="display_errors" value="1"/>
+        <server name="APP_ENV" value="test" force="true"/>
+        <server name="APP_DEBUG" value="0" force="true"/>
+        <server name="APP_SECRET" value="phpunit-only-not-a-real-secret" force="true"/>
+        <server name="KERNEL_CLASS" value="App\Kernel"/>
+        <server name="INTERNAL_API_KEY" value="phpunit-internal-key" force="true"/>
+        <server name="AGENT_URL" value="" force="true"/>
+        <!-- Jamais d'appel réseau au LLM pendant les tests : sans clé, le sommelier utilise son tri local -->
+        <server name="GEMINI_API_KEY" value="" force="true"/>
+        <!-- Surchargeable (CI) ; par défaut : postgres du docker-compose.override.yml -->
+        <server name="DATABASE_URL" value="postgresql://aura:change-me-dev-only@127.0.0.1:5433/aura_test?serverVersion=16&amp;charset=utf8"/>
+    </php>
+    <testsuites>
+        <testsuite name="backend"><directory>tests</directory></testsuite>
+    </testsuites>
+    <source>
+        <include><directory>src</directory></include>
+    </source>
+</phpunit>

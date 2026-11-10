@@ -1,0 +1,41 @@
+parameters:
+    # Reranking gustatif (Google AI Studio) : sans clé, le tri local prend le relais ; modèles essayés dans l'ordre.
+    env(GEMINI_API_KEY): ''
+    env(GEMINI_MODELS): 'gemini-3.8-flash,gemini-3.6-flash,gemini-3.5-flash-lite,gemini-3.1-flash-lite'
+    env(GEMINI_TIMEOUT_SECONDS): '4.5'
+    env(GEMINI_FALLBACK_DELAY_MS): '175'
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\:
+        resource: '../src/'
+        exclude:
+            - '../src/Kernel.php'
+            - '../src/Entity/'
+            - '../src/Dto/'
+            - '../src/Enum/'
+            - '../src/Compatibility/CompatibilityIssue.php'
+            - '../src/Compatibility/CompatibilityResultDTO.php'
+            - '../src/Compatibility/VerificationContext.php'
+            - '../src/Catalog/AttributeFilter.php'
+            - '../src/Catalog/Wine/WineImportStats.php'
+            - '../src/Sommelier/RankedWine.php'
+            - '../src/Sommelier/RerankResult.php'
+            - '../src/Sommelier/Recommendation.php'
+            - '../src/Checkout/CheckoutTurn.php'
+
+    App\Controller\Api\:
+        resource: '../src/Controller/Api/'
+        tags: ['controller.service_arguments']
+
+when@test:
+    services:
+        test.entity_manager:
+            alias: doctrine.orm.entity_manager
+            public: true
+        test.catalog_loader:
+            alias: App\Catalog\CatalogLoader
+            public: true

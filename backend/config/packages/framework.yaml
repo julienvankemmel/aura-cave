@@ -1,0 +1,20 @@
+framework:
+    secret: '%env(APP_SECRET)%'
+    http_method_override: false
+    handle_all_throwables: true
+    php_errors:
+        log: true
+    serializer:
+        name_converter: serializer.name_converter.camel_case_to_snake_case
+    rate_limiter:
+        api:
+            policy: sliding_window
+            limit: 120
+            interval: '1 minute'
+
+when@test:
+    framework:
+        test: true
+        rate_limiter:
+            api:
+                limit: 100000

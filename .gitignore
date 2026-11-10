@@ -1,0 +1,21 @@
+.env
+.env.local
+node_modules/
+.next/
+vendor/
+backend/var/
+.venv/
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.phpunit.cache/
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+# Jeu de données Kaggle (licence à vérifier) : à télécharger, non versionné
+backend/data/raw/*.csv
+.php-cs-fixer.cache
+backend/.phpunit.result.cache
+

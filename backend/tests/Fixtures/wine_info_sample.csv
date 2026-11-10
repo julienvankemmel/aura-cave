@@ -1,0 +1,11 @@
+id,name,producer,nation,local1,local2,local3,local4,varieties1,varieties2,varieties3,varieties4,varieties5,varieties6,varieties7,varieties8,varieties9,varieties10,varieties11,varieties12,type,use,abv,degree,sweet,acidity,body,tannin,price,year,ml
+137197,Clos Fictif,클로 픽티프 Clos Fictif,칠레 Chile,라펠 밸리 Rapel Valley,,,,Cabernet Sauvignon,Carmenere,Merlot,,,,,,,,,,Red,Table,14~15,17~19,SWEET1,ACIDITY4,BODY5,TANNIN4,220000,2014,750
+137322,Verdelac Sauternes,메종 베르들락 Maison Verdelac,프랑스 France,보르도 Bordeaux,소테른 Sauternes,,,Semillon,Sauvignon blanc,Muscadet,,,,,,,,,,White,Dessert,13.5,6~7,SWEET5,ACIDITY3,BODY2,TANNIN1,62000,2010,750
+137325,Paul Armand,폴 아르망 Paul Armand,프랑스 France,Ugni​ blanc,,,,,,,,,,,,,,,,Sparkling,Appetizer,10.5,6~8,SWEET2,ACIDITY3,BODY3,TANNIN1,14000,,750
+137401,"Tenuta Bellavista, Riserva Ducale Oro Chiant Classico Grand Selezione",테누타 벨라비스타 Tenuta Bellavista,이탈리아 Italy,토스카나 Toscana,키안티 Chianti,,,Sangiovese,Merlot,Cabernet Sauvignon,,,,,,,,,,Red,Table,14.5,15~18,SWEET1,ACIDITY3,BODY5,TANNIN4,110000,2015,750
+137340,"Maison Delorme, Chablis",메종 델롬 Maison Delorme,프랑스 France,부르고뉴 Bourgogne,샤블리 Chablis,,,Chardonnay,,,,,,,,,,,,White,"Appetizer, Table",12.5,9~11,SWEET1,ACIDITY4,BODY2,TANNIN1,50000,2006,750
+137199,Comte de Brisac Red,콩트 드 브리삭 Comte de Brisac,프랑스 France,,,,,Carignan,Cinsault,Syrah & Shiraz,Grenache Noir,,,,,,,,,Red,Table,11~12,15~17,SWEET2,ACIDITY3,BODY2,TANNIN2,,,750
+138436,Calvados 1978,꽁트 알베르 드 파르낙 Comte Albert de Farnac,프랑스 France,노르망디 Normandi,,,,Apple,Pear,,,,,,,,,,,Hard,Dessert,42,20,SWEET2,ACIDITY1,BODY5,TANNIN1,377000,,500
+137325,Paul Armand,폴 아르망 Paul Armand,프랑스 France,Ugni​ blanc,,,,,,,,,,,,,,,,Sparkling,Appetizer,10.5,6~8,SWEET2,ACIDITY3,BODY3,TANNIN1,14000,,750
+999999,Clos Fictif,클로 픽티프 Clos Fictif,칠레 Chile,라펠 밸리 Rapel Valley,,,,Cabernet Sauvignon,Carmenere,Merlot,,,,,,,,,,Red,Table,14~15,17~19,SWEET1,ACIDITY4,BODY5,TANNIN4,220000,2014,750
+888888,Clos Fictif,클로 픽티프 Clos Fictif,Riesling,라펠 밸리 Rapel Valley,,,,Cabernet Sauvignon,Carmenere,Merlot,,,,,,,,,,Red,Table,14~15,17~19,SWEET1,ACIDITY4,BODY5,TANNIN4,220000,2014,750

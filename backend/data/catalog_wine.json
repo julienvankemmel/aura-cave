@@ -1,0 +1,143 @@
+{
+  "_note": "Accessoires du vin (carafes, verres, service). Les vins viennent du jeu de données réel data/raw/wine_info.csv : voir `app:import-wine-dataset`.",
+  "schema_version": 3,
+  "scope_categories": [
+    "accessory"
+  ],
+  "products": [
+    {
+      "sku": "RIEDEL-CARAFE-ULTRA",
+      "name": "Carafe à décanter Riedel Ultra",
+      "brand": "Riedel",
+      "category": "accessory",
+      "price_cents": 14900,
+      "stock": 30,
+      "description": "Carafe cristal soufflé 1,25 L : décantation et aération des grands rouges.",
+      "tags": [
+        "carafe",
+        "aération",
+        "cristal"
+      ],
+      "attributes": {
+        "kind": "Carafe",
+        "capacity_cl": 125,
+        "material": "Cristal",
+        "suited_for": [
+          "rouge"
+        ]
+      }
+    },
+    {
+      "sku": "ZALTO-BORDEAUX-6",
+      "name": "Verres Zalto Denk'Art Bordeaux (6)",
+      "brand": "Zalto",
+      "category": "accessory",
+      "price_cents": 39000,
+      "stock": 12,
+      "description": "Six verres soufflés bouche, ultra fins, pensés pour les rouges de structure.",
+      "tags": [
+        "verres",
+        "bordeaux",
+        "dégustation"
+      ],
+      "attributes": {
+        "kind": "Verres",
+        "pieces": 6,
+        "material": "Cristal soufflé",
+        "suited_for": [
+          "rouge"
+        ]
+      }
+    },
+    {
+      "sku": "ZALTO-BOURGOGNE-6",
+      "name": "Verres Zalto Denk'Art Bourgogne (6)",
+      "brand": "Zalto",
+      "category": "accessory",
+      "price_cents": 39000,
+      "stock": 12,
+      "description": "Six verres à large bulbe pour exalter le Pinot Noir et les grands Chardonnay.",
+      "tags": [
+        "verres",
+        "bourgogne",
+        "dégustation"
+      ],
+      "attributes": {
+        "kind": "Verres",
+        "pieces": 6,
+        "material": "Cristal soufflé",
+        "suited_for": [
+          "rouge",
+          "blanc"
+        ]
+      }
+    },
+    {
+      "sku": "LAGUIOLE-SOMMELIER",
+      "name": "Tire-bouchon sommelier Laguiole en Aubrac",
+      "brand": "Laguiole en Aubrac",
+      "category": "accessory",
+      "price_cents": 8900,
+      "stock": 40,
+      "description": "Tire-bouchon double levier, manche en bois d'olivier, coupe-capsule.",
+      "tags": [
+        "tire-bouchon",
+        "sommelier"
+      ],
+      "attributes": {
+        "kind": "Tire-bouchon",
+        "material": "Acier inoxydable et olivier",
+        "suited_for": [
+          "rouge",
+          "blanc",
+          "liquoreux"
+        ]
+      }
+    },
+    {
+      "sku": "CORAVIN-PIVOT",
+      "name": "Système de conservation Coravin Pivot",
+      "brand": "Coravin",
+      "category": "accessory",
+      "price_cents": 17900,
+      "stock": 20,
+      "description": "Servez un verre sans déboucher et conservez vos grandes bouteilles des semaines.",
+      "tags": [
+        "conservation",
+        "service au verre"
+      ],
+      "attributes": {
+        "kind": "Conservation",
+        "material": "Aluminium",
+        "suited_for": [
+          "rouge",
+          "blanc",
+          "liquoreux"
+        ]
+      }
+    },
+    {
+      "sku": "COFFRET-BOIS-3",
+      "name": "Coffret bois 3 bouteilles",
+      "brand": "Maison Cavé",
+      "category": "accessory",
+      "price_cents": 6900,
+      "stock": 25,
+      "description": "Coffret cadeau en bois massif pour trois bouteilles, intérieur capitonné.",
+      "tags": [
+        "coffret",
+        "cadeau"
+      ],
+      "attributes": {
+        "kind": "Coffret",
+        "capacity_bottles": 3,
+        "material": "Bois massif",
+        "suited_for": [
+          "rouge",
+          "blanc",
+          "liquoreux"
+        ]
+      }
+    }
+  ]
+}
